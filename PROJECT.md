@@ -27,11 +27,10 @@ The bot will support two categories of commands. All commands must implement a *
 *   `!record`: Streamer's all-time fastest lap for the current car/track combo.
 
 **Live Telemetry Commands (Pulled from Windows host, broadcast to Debian host):**
-*   `!speed` / `!gear` / `!rpm`: Real-time vehicle dashboard metrics.
 *   `!weather`: Live track conditions (`AirTemp`, `TrackTemp`, `WindVel`).
 *   `!inc`: Streamer's live incident count (`PlayerCarIncmidSession`).
 *   `!ints`: Gap intervals to the cars directly ahead and behind (`CarIdxF2Time`).
-*   `!sessionbest`: Streamer's fastest lap set in the *current* live session.
+*   `!sessionbest`: Streamer's fastest lap set in the *current* session.
 
 ## 4. Milestones (Step-by-Step Build Plan)
 *AI Agent Instruction: Implement the simplest next step that can be tested. Do not proceed to the next milestone until the current one is tested and confirmed working [2].*
