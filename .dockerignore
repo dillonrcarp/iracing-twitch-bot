@@ -1,0 +1,16 @@
+# Environment variables — never include in Docker build context
+.env
+
+# Git
+.git
+.gitignore
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Docs and config not needed at runtime
+docs/
+*.md
